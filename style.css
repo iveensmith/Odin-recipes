@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:ital,wght@0,500;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .6em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: grey;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid grey;
+
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.banner {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: Courgette;
+    font-weight: normal;
+    color: rgb(185, 174, 174);
+}
+
+.banner-big {
+    font-size: 5em;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url("./images/Behind\ the\ scenes\ with\ @frenchlyphotography\ -\ Mylucie_com.jpg");
+    background-blend-mode: multiply;
+    padding-bottom: 20px;
+}
+
+
+.main {
+    margin: 1em;
+}
+
+.section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.main-img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.recipes a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.recipes a:hover {
+    background-color: grey;
+}
+
+.about {
+    text-align: center;
+    font-size: 4em;
+}
+
+footer {
+    background-image: url("./images/Behind\ the\ scenes\ with\ @frenchlyphotography\ -\ Mylucie_com.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding: .5em;
+    color: rgb(221, 209, 209);
+    text-align: center;
+    margin-top: 2.5em;
+    
+}
